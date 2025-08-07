@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Form creation">
+        <meta name="Keywords" content="html,beginner website,junior coder,PLP, Form">
+        <title>Blemex's Form</title>
+    </head>
+    <body style="background-color: aquamarine;">
+        <h3>Form</h3>
+           <form action="location" method="post">
+            <fieldset>
+                <legend id="Contact form description">This is form is for testing</legend>
+            <br /><br />
+            <!--Name-->
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name here......">
+            <br /><br />
+            <!--Email-->
+                <label for="Email">Email:</label>
+                <input type="Email" name="Email" id="Email" Placeholder="Enter your Email here.......">
+            <br /><br />
+            <!--Age-->
+                <label for="Age">Age:</label>
+                <input type="number" name="Age" id="Age" placeholder="Enter your Age here...">
+            <br /><br />
+            <!--Date of Birth-->
+                <label for="DOB">DOB:</label>
+                <input type="date" name="DOB" id="DOB">
+            <br /><br />
+            <!--Gender-->
+               <label for="Gender">Gender:</label>
+               <input type="radio" name="Gender" id="Gender" value="Female">F<br />
+               <input type="radio" name="Gender" id="Gender" value="Male">M<br />
+               
+            <br /><br />
+            <!--CV-->
+                <label for="CV">Upload CV:</label>
+                <input type="file" name="CV" id="CV">
+            <br /><br />
+            <!--Bio-->
+                <label for="Message">Bio:</label>
+                <textarea name="Message" id="Bio" rows="10" cols="50" placeholder="Enter your bio here...."></textarea>
+            <br /><br />
+            <!--Submit-->
+                <input type="submit" value="submit">
+            <br /><br />
+            </fieldset> 
+           </form>
+ </body>
+</html>
